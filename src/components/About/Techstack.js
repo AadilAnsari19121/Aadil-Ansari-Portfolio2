@@ -28,11 +28,14 @@ import {
 } from "react-icons/si";
 import { TbApi, TbBrandGolang, TbBrandReactNative, TbJson, TbPaint, TbUxCircle } from "react-icons/tb";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
+import ParticlesBackground from "../ParticlesBackground";
 
 
 function Techstack() {
   return (
+
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <ParticlesBackground />
       <Col xs={4} md={2} className="tech-icons" style={{ alignItems: "center" }}>
         <TbBrandReactNative />
         <p style={{ textAlign: "center", fontSize: '1.5rem' }}>React Native Cli</p>

@@ -4,10 +4,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import ExperienceCard from './ExperienceCard';
 
+import ParticlesBackground from "../ParticlesBackground";
+
 const Experience = () => {
     return (
         <Container fluid className="project-section">
-            <Particle />
+            <ParticlesBackground />
             <Container>
                 <h1 className="project-heading">
                     My latest <strong className="purple">Work Experience </strong>
